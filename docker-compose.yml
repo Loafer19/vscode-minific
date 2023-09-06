@@ -1,0 +1,11 @@
+version: 3.0.0
+
+services:
+  nodejs:
+    image: node:latest
+    container_name: nodejs
+    restart: unless-stopped
+    volumes:
+      - .:/home/node/app
+    working_dir: /home/node/app
+    command: bash -c "node -e 'setInterval(() => console.log(\"Working...\"), 5000)'"

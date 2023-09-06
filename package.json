@@ -1,0 +1,46 @@
+{
+  "name": "minific",
+  "displayName": "Minific",
+  "description": "Minific icon theme for comfortable work.",
+  "version": "0.5.4",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Loafer19/vscode-minific.git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "vscode",
+    "vscode-theme",
+    "vscode-icon-theme"
+  ],
+  "homepage": "https://github.com/Loafer19/vscode-minific",
+  "icon": "assets/logo.png",
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "minific",
+        "label": "Minific",
+        "path": "./icons.json"
+      }
+    ]
+  },
+  "publisher": "Loafer19",
+  "engines": {
+    "vscode": "^1.40.0"
+  },
+  "vsce": {
+    "baseImagesUrl": "https://raw.githubusercontent.com/Loafer19/vscode-minific/master/assets/logo.png",
+    "dependencies": false,
+    "yarn": false
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "vsce": "^2.15"
+  }
+}
