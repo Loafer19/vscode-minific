@@ -1,23 +1,7 @@
 {
-  "name": "minific",
-  "displayName": "Minific",
-  "description": "Minific icon theme for comfortable work.",
-  "version": "0.5.4",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Loafer19/vscode-minific.git"
-  },
   "categories": [
     "Themes"
   ],
-  "keywords": [
-    "vscode",
-    "vscode-theme",
-    "vscode-icon-theme"
-  ],
-  "homepage": "https://github.com/Loafer19/vscode-minific",
-  "icon": "assets/logo.png",
   "contributes": {
     "iconThemes": [
       {
@@ -27,20 +11,36 @@
       }
     ]
   },
-  "publisher": "Loafer19",
+  "description": "Minific icon theme for comfortable work.",
+  "devDependencies": {
+    "vsce": "^2.15"
+  },
+  "displayName": "Minific",
   "engines": {
     "vscode": "^1.40.0"
   },
-  "vsce": {
-    "baseImagesUrl": "https://raw.githubusercontent.com/Loafer19/vscode-minific/master/assets/logo.png",
-    "dependencies": false,
-    "yarn": false
+  "homepage": "https://github.com/Loafer19/vscode-minific",
+  "icon": "assets/logo.png",
+  "keywords": [
+    "vscode",
+    "vscode-theme",
+    "vscode-icon-theme"
+  ],
+  "license": "MIT",
+  "name": "minific",
+  "publisher": "Loafer19",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Loafer19/vscode-minific.git"
   },
   "scripts": {
     "package": "vsce package",
     "publish": "vsce publish"
   },
-  "devDependencies": {
-    "vsce": "^2.15"
+  "version": "0.6.0",
+  "vsce": {
+    "baseImagesUrl": "https://raw.githubusercontent.com/Loafer19/vscode-minific/master/assets/logo.png",
+    "dependencies": false,
+    "yarn": false
   }
 }

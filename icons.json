@@ -1,71 +1,10 @@
 {
-  "iconDefinitions": {
-    "_file": {
-      "iconPath": "./icons/file_default.png"
-    },
-    "_folder": {
-      "iconPath": "./icons/folder.png"
-    },
-    "_folder_open": {
-      "iconPath": "./icons/folder_opened.png"
-    },
-    "blade": {
-      "iconPath": "./icons/types/blade.png"
-    },
-    "csharp": {
-      "iconPath": "./icons/file_type_csharp.svg"
-    },
-    "css": {
-      "iconPath": "./icons/file_type_css.svg"
-    },
-    "html": {
-      "iconPath": "./icons/file_type_html.png"
-    },
-    "image": {
-      "iconPath": "./icons/file_type_image.svg"
-    },
-    "js": {
-      "iconPath": "./icons/file_type_js.svg"
-    },
-    "json": {
-      "iconPath": "./icons/file_type_json.svg"
-    },
-    "markdown": {
-      "iconPath": "./icons/file_type_markdown.svg"
-    },
-    "markup": {
-      "iconPath": "./icons/file_type_markup.png"
-    },
-    "php": {
-      "iconPath": "./icons/file_type_php.png"
-    },
-    "text": {
-      "iconPath": "./icons/file_type_text.png"
-    },
-    "typescript": {
-      "iconPath": "./icons/file_type_typescript.svg"
-    },
-    "vue": {
-      "iconPath": "./icons/file_type_vue.svg"
-    },
-    "zip": {
-      "iconPath": "./icons/file_type_archive.png"
-    }
-  },
   "file": "_file",
-  "folder": "_folder",
-  "folderExpanded": "_folder_open",
   "fileExtensions": {
-    "7z": "archive",
     "blade.php": "blade",
     "bmp": "image",
-    "bz2": "archive",
-    "bzip2": "archive",
-    "cs": "csharp",
     "css": "css",
-    "erb": "html",
     "gif": "image",
-    "gz": "archive",
     "htm": "html",
     "html": "html",
     "ico": "image",
@@ -73,30 +12,53 @@
     "jpg": "image",
     "js": "js",
     "json": "json",
+    "json5": "json",
     "markdown": "markdown",
     "md": "markdown",
-    "phar": "php",
+    "mjs": "js",
     "php": "php",
-    "php1": "php",
-    "php2": "php",
-    "php3": "php",
-    "php4": "php",
-    "php5": "php",
-    "php6": "php",
-    "phps": "php",
-    "phpsa": "php",
-    "phpt": "php",
     "phtml": "php",
     "png": "image",
-    "rar": "archive",
     "svg": "image",
-    "tar": "archive",
-    "ts": "typescript",
-    "tsx": "typescript",
-    "vue": "vue",
-    "xz": "archive",
-    "zip": "archive"
+    "tiff": "image",
+    "webp": "image"
   },
+  "folder": "_folder",
+  "folderExpanded": "_folder_open",
   "hidesExplorerArrows": true,
-  "languageIds": {}
+  "iconDefinitions": {
+    "_file": {
+      "iconPath": "./icons/files/default.png"
+    },
+    "_folder": {
+      "iconPath": "./icons/folders/default.png"
+    },
+    "_folder_open": {
+      "iconPath": "./icons/folders/opened.png"
+    },
+    "blade": {
+      "iconPath": "./icons/files/blade.png"
+    },
+    "css": {
+      "iconPath": "./icons/files/css.png"
+    },
+    "html": {
+      "iconPath": "./icons/files/html.png"
+    },
+    "image": {
+      "iconPath": "./icons/files/image.png"
+    },
+    "js": {
+      "iconPath": "./icons/files/js.png"
+    },
+    "json": {
+      "iconPath": "./icons/files/json.png"
+    },
+    "markdown": {
+      "iconPath": "./icons/files/markdown.png"
+    },
+    "php": {
+      "iconPath": "./icons/files/php.png"
+    }
+  }
 }
