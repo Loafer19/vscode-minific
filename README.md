@@ -1,12 +1,12 @@
 ## About
 
-<img src="./assets/logo.png" alt="Logo" width="150">
+<img src="https://raw.githubusercontent.com/Loafer19/vscode-minific/main/assets/logo.png" alt="Logo" width="150">
 
 Probably the best file icon theme for VS Code ;)
 
-Uploaded icons: `10`
+Uploaded icons: `16`
 
-<img src="./assets/icons.png" alt="Logo">
+![./assets/icons.png](https://raw.githubusercontent.com/Loafer19/vscode-minific/main/assets/icons.png)
 
 Benefits:
 
