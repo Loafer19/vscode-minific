@@ -4,8 +4,8 @@
     "blade.php": "blade",
     "bmp": "image",
     "css": "css",
-    "docker-compose.yml": "docker",
     "Dockerfile": "docker",
+    "env": "env",
     "eot": "font",
     "gif": "image",
     "gitattributes": "git",
@@ -38,6 +38,9 @@
     "yaml": "yaml",
     "yml": "yaml"
   },
+  "fileNames": {
+    "docker-compose.yml": "docker"
+  },
   "folder": "_folder",
   "folderExpanded": "_folder_open",
   "hidesExplorerArrows": true,
@@ -59,6 +62,9 @@
     },
     "docker": {
       "iconPath": "./icons/files/docker.png"
+    },
+    "env": {
+      "iconPath": "./icons/files/env.png"
     },
     "font": {
       "iconPath": "./icons/files/font.png"
